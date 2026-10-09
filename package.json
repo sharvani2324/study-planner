@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "Full-stack MERN Study Planner Web Application",
   "scripts": {
+    "start": "npm --prefix server start",
+    "build": "npm --prefix client run build",
+    "build:client": "npm --prefix client run build",
     "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
     "client": "npm --prefix client dev",
+    "client:dev": "npm --prefix client dev",
+    "client:preview": "npm --prefix client run preview",
+    "install:all": "npm --prefix client install && npm --prefix server install",
     "dev": "node run-dev.js"
   },
   "keywords": ["mern", "study-planner", "mongodb", "express", "react", "node"],

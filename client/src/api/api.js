@@ -1,6 +1,15 @@
-// Study Planner Frontend API Client
+// Dynamic backend API base URL:
+// In production (e.g., hosted on Vercel), requests target the deployed backend specified by VITE_API_URL.
+// In local development, if VITE_API_URL is omitted, it defaults to '/api' to use Vite's dev server proxy.
+const getBaseUrl = () => {
+  const envUrl = (import.meta.env.VITE_API_URL || '').trim().replace(/\/+$/, '');
+  if (!envUrl) {
+    return '/api';
+  }
+  return envUrl.endsWith('/api') ? envUrl : `${envUrl}/api`;
+};
 
-const BASE_URL = '/api';
+const BASE_URL = getBaseUrl();
 
 const getHeaders = () => {
   const token = localStorage.getItem('study_planner_token');

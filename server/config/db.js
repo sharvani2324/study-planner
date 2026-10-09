@@ -27,6 +27,9 @@ export const maskMongoUri = (rawUri) => {
  * Connects to MongoDB (Atlas or local instance) using Mongoose.
  */
 export const connectDB = async () => {
+  if (!process.env.MONGODB_URI) {
+    console.warn('⚠️ MONGODB_URI environment variable is not defined. Falling back to local MongoDB (mongodb://127.0.0.1:27017/study_planner). When deploying to Render, set MONGODB_URI in your Render environment variables.');
+  }
   const rawUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/study_planner';
 
   // Extract database name from path if provided, or default to 'study_planner'
