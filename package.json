@@ -1,0 +1,13 @@
+{
+  "name": "study-planner-mern",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Study Planner Web Application",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client dev",
+    "dev": "node run-dev.js"
+  },
+  "keywords": ["mern", "study-planner", "mongodb", "express", "react", "node"],
+  "author": "",
+  "license": "ISC"
+}
