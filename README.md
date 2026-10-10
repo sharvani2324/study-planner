@@ -6,27 +6,27 @@ A modern, highly animated, student-focused full-stack web application built on t
 
 ---
 
-## 🌟 Key Highlights
+##  Key Highlights
 
 - **Full-Stack MERN Architecture:** Real MongoDB database integration, Express REST backend, and dynamic React frontend.
 - **The 8 Core Subjects Supported:**
-  1. ⚡ **DAA** — Design and Analysis of Algorithms
-  2. 🚀 **BACKEND** — Node.js, Express, REST APIs & Database Design
-  3. 🐍 **PYTHON** — Python Programming, Functions, OOP & Advanced Concepts
-  4. 📐 **MATHS** — Discrete & Engineering Mathematics, Matrices, Probability
-  5. 🗄️ **DBMS** — Database Management Systems, Normalization, SQL & Transactions
-  6. 🌐 **WebDevelopment** — HTML, CSS, JavaScript, React & Web APIs
-  7. 🗣️ **ACS** — Advanced Communication Skills, Formal Writing & Debates
-  8. 🎲 **PandS** — Probability & Statistics, Distributions & Hypothesis Testing
+  1.  **DAA** — Design and Analysis of Algorithms
+  2.  **BACKEND** — Node.js, Express, REST APIs & Database Design
+  3.  **PYTHON** — Python Programming, Functions, OOP & Advanced Concepts
+  4.  **MATHS** — Discrete & Engineering Mathematics, Matrices, Probability
+  5.  **DBMS** — Database Management Systems, Normalization, SQL & Transactions
+  6.  **WebDevelopment** — HTML, CSS, JavaScript, React & Web APIs
+  7.  **ACS** — Advanced Communication Skills, Formal Writing & Debates
+  8.  **PandS** — Probability & Statistics, Distributions & Hypothesis Testing
 - **AI Smart Companion Suite:**
-  - ⏱️ **Focus Mode:** Pomodoro & custom focus timer linked to study plans, recording duration, confidence ratings & focus history.
-  - 📝 **AI Quizzes:** Instant question generation per subject & topic with immediate grading, explanations & XP awards.
-  - 🗂️ **AI Flashcards:** 3D animated flip cards with spaced repetition and difficult card tracking.
-  - 🎯 **Identified Weak Areas:** Automatic detection of struggling topics with 1-click quiz practice and focus scheduling.
-  - 🗓️ **Monthly Analysis:** Month-by-month trends, daily completion heatmap & subject distribution.
-  - 🎓 **Exam Countdown:** Days-remaining trackers with preparation roadmaps and urgency indicators.
-  - 🏆 **Gamification & Daily Missions:** Leveling system, XP rewards, study streaks, and achievement badges.
-  - 🚑 **Smart Recovery Plan:** AI reassessment for overdue tasks to rebalance your study load without burnout.
+  -  **Focus Mode:** Pomodoro & custom focus timer linked to study plans, recording duration, confidence ratings & focus history.
+  -  **AI Quizzes:** Instant question generation per subject & topic with immediate grading, explanations & XP awards.
+  -  **AI Flashcards:** 3D animated flip cards with spaced repetition and difficult card tracking.
+  -  **Identified Weak Areas:** Automatic detection of struggling topics with 1-click quiz practice and focus scheduling.
+  -  **Monthly Analysis:** Month-by-month trends, daily completion heatmap & subject distribution.
+  -  **Exam Countdown:** Days-remaining trackers with preparation roadmaps and urgency indicators.
+  -  **Gamification & Daily Missions:** Leveling system, XP rewards, study streaks, and achievement badges.
+  -  **Smart Recovery Plan:** AI reassessment for overdue tasks to rebalance your study load without burnout.
 - **Complete CRUD Operations:** Create, Read, Update, Status toggle, and Delete study plans directly in MongoDB.
 - **Real-Time Dynamic Analytics:** Overall completion percentages and subject-wise progress bars dynamically computed from MongoDB data across all 8 subjects.
 - **Interactive Multi-View Calendar:** Day view, Week view, and Month view with timeline plotting.
@@ -35,7 +35,7 @@ A modern, highly animated, student-focused full-stack web application built on t
 
 ---
 
-## 🏗️ Architecture & Project Structure
+##  Architecture & Project Structure
 
 ```text
 study planner hackathon/
@@ -98,7 +98,7 @@ study planner hackathon/
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 - **Node.js** (v18+ recommended)
@@ -129,7 +129,7 @@ npm run dev
 
 ---
 
-## 🔑 Demo Login (1-Click Ready)
+##  Demo Login (1-Click Ready)
 
 On the Login screen, click **"Quick Demo Student Login"** to immediately sign in as:
 - **Email:** `sharvani@test.com`
@@ -180,9 +180,9 @@ This performs a full roundtrip test:
 ## 🎨 Design Philosophy
 - **Light Theme by Default:** Crisp, airy, focused atmosphere.
 - **Subject-Specific Accents:**
-  - ⚡ **DAA:** Vibrant Sky Blue
-  - 🚀 **Backend:** Emerald Green
-  - 🐍 **Python:** Warm Amber Gold
-  - 📐 **Maths:** Coral Orange
-  - 🗄️ **DBMS:** Soft Purple
+  -  **DAA:** Vibrant Sky Blue
+  -  **Backend:** Emerald Green
+  -  **Python:** Warm Amber Gold
+  -  **Maths:** Coral Orange
+  -  **DBMS:** Soft Purple
 - **Micro-Interactions:** Hover lift, confetti completion celebrations, animated counters, smooth dropdown transitions, and typing bubble indicators.
