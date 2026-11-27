@@ -1,4 +1,4 @@
-# 📚 STUDY PLANNER
+#  STUDY PLANNER
 
 > *"Plan Smart. Study Better. Achieve More."*
 
@@ -30,7 +30,7 @@ A modern, highly animated, student-focused full-stack web application built on t
 - **Complete CRUD Operations:** Create, Read, Update, Status toggle, and Delete study plans directly in MongoDB.
 - **Real-Time Dynamic Analytics:** Overall completion percentages and subject-wise progress bars dynamically computed from MongoDB data across all 8 subjects.
 - **Interactive Multi-View Calendar:** Day view, Week view, and Month view with timeline plotting.
-- **🤖 AI Doubt Assistant:** Integrated backend endpoint (`/api/ai/chat`) providing step-by-step algorithms, exam preparation roadmaps, practice problems, code snippets, and study plan advice across all 8 subjects.
+- ** AI Doubt Assistant:** Integrated backend endpoint (`/api/ai/chat`) providing step-by-step algorithms, exam preparation roadmaps, practice problems, code snippets, and study plan advice across all 8 subjects.
 - **Celebratory Animations:** Task completion transitions, confetti effects, smooth card entrances, and typing indicators.
 
 ---
@@ -139,7 +139,7 @@ You can also register any new student account using the **Register** form.
 
 ---
 
-## 📡 REST API Reference
+##  REST API Reference
 
 | Method | Endpoint | Description | Auth Required |
 |---|---|---|:---:|
@@ -159,7 +159,7 @@ You can also register any new student account using the **Register** form.
 
 ---
 
-## 🧪 Automated Verification
+##  Automated Verification
 
 Run the built-in end-to-end verification script anytime:
 ```bash
@@ -177,7 +177,7 @@ This performs a full roundtrip test:
 
 ---
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 - **Light Theme by Default:** Crisp, airy, focused atmosphere.
 - **Subject-Specific Accents:**
   -  **DAA:** Vibrant Sky Blue
